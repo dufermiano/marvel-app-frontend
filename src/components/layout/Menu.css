@@ -1,0 +1,54 @@
+.Menu {
+  display: flex;
+  flex-basis: 250px;
+
+  background-color: #e62429;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.Menu nav {
+  flex: 1;
+}
+
+.Menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Menu li {
+  display: flex;
+}
+
+.Menu li a {
+  flex: 1;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.Menu li a:hover {
+  background-color: #00000030;
+}
