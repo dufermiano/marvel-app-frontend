@@ -6,27 +6,27 @@ module.exports = {
     jest: true,
   },
   extends: [
-    "plugin:react/recommended",
-    "standard",
-    "prettier",
-    "prettier/standard",
-    "prettier/react",
+    'plugin:react/recommended',
+    'standard',
+    'prettier',
+    'prettier/standard',
+    'prettier/react',
   ],
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 12,
   },
-  plugins: ["react", "prettier"],
+  plugins: ['react', 'prettier'],
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
-        endOfLine: "auto",
+        endOfLine: 'auto',
       },
     ],
-    "import/prefer-default-export": "off",
+    'import/prefer-default-export': 'off',
   },
 };
